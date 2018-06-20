@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CuteDog" xml:space="preserve">
+    <value>Cute Dog</value>
+  </data>
+  <data name="EuropaLeague" xml:space="preserve">
+    <value>Europa League</value>
+  </data>
+  <data name="FamilyAllowance" xml:space="preserve">
+    <value>Family Allowance</value>
+  </data>
+  <data name="firstNews1st" xml:space="preserve">
+    <value>Górnik will face the Moldovan Zaria Balti. The host of the first match will be Zaria, who took the fifth place in the Moldavian first league. She got into the cups after retiring from the competition Dacia Kishinev.</value>
+  </data>
+  <data name="firstNews2nd" xml:space="preserve">
+    <value>Lech will play with Gandżasar Kapan from Armenia. The first match will take place on July 12 in Poznan in the empty stands (this is a penalty during the match of the last round of Lech - Legia Warsaw). Revision July 19.</value>
+  </data>
+  <data name="firstNews3rd" xml:space="preserve">
+    <value>In the previous season, Gandzasar finished third in the Armenian Premier League and won the national cup.</value>
+  </data>
+  <data name="firstNews4th" xml:space="preserve">
+    <value>The draw of the second round - then Jagiellonia Białystok, the runner-up of Poland, will enter the game - it will take place on Wednesday at 2:00 PM.</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Choose Language</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Main Page</value>
+  </data>
+  <data name="secondNews1st" xml:space="preserve">
+    <value>On May 15, the government approved changes in family benefits. It will grow, among others income criterion entitling to social assistance. The increase was forced by the protest of the guardians of people with disabilities in the Sejm.</value>
+  </data>
+  <data name="secondNews2nd" xml:space="preserve">
+    <value>The Council of Ministers accepted the proposal to change the amount of income criteria and amounts of benefits contained in the Act of 28 November 2003 on family benefits. As a result, more people will have a chance to receive benefits.</value>
+  </data>
+  <data name="secondNews3rd" xml:space="preserve">
+    <value>From 1 November 2018, some family benefits for disabled persons or their carers will increase.
+Care allowance will amount to PLN 184.42 (increase by PLN 31.42). Another raise of this allowance - up to PLN 215.84, will take effect from November 1, 2019.
+Special care allowance will be PLN 620 (increase by PLN 100).
+Guardian's allowance will increase to PLN 620 (by PLN 100).</value>
+  </data>
+  <data name="thirdNews1st" xml:space="preserve">
+    <value>The gas pipeline will run through Danish, Swedish and Polish waters. It will have 275 km.</value>
+  </data>
+  <data name="thirdNews2nd" xml:space="preserve">
+    <value>Gaz-System, responsible for the construction of the Baltic Pipe undersea pipeline, announced the selection of the preferred route for this investment.</value>
+  </data>
+  <data name="thirdNews3rd" xml:space="preserve">
+    <value>The route will be run through Danish and Polish sea areas and the Swedish exclusive economic zone. Its length will be about 275 km. Earlier, Gaz-System reported that he was also considering German waters.</value>
+  </data>
+  <data name="thirdNews4th" xml:space="preserve">
+    <value>The starting point for the gas pipeline to land is Faxe South in Denmark (also considered Faxe North, in the same Faxe Bay) and Niechorze-Pogorzelica in Poland (also considered Rogowo and Gąski, located eastwards).</value>
+  </data>
+  <data name="Trademark" xml:space="preserve">
+    <value>All trademarks, logos and brands are property of their respective owners.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="languageText" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Cookie" xml:space="preserve">
+    <value>We use cookies to help our site work, to understand how it is used, and to tailor the adverts presented on our site. By clicking “Accept” below, you agree to us doing so.</value>
+  </data>
+</root>

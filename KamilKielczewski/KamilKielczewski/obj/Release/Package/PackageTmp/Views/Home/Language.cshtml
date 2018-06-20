@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<div style="margin:60px; margin-bottom:1400px" id="registration-form" class="ui form raised very padded text container segment">
+    <h1 style="text-align:center;">@Html.Raw(KamilKielczewski.Resources.Home.languageText)</h1>
+    <div>@Html.ActionLink("English", "Change", "Home", new { Language = "en" }, null)</div>
+    <div>@Html.ActionLink("Polish", "Change", "Home", new { Language = "pl" }, null)</div>
+</div>
+

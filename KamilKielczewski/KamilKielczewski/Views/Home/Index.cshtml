@@ -1,0 +1,412 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div role="main" id="main-container">
+    <div id="popupx" class="ui message transition">
+        <img class="close icon" src="~/Content/x.png" onclick="ClosePopup()" alt="close">
+        <div class="header">
+            @Html.Raw(KamilKielczewski.Resources.Home.Cookie)
+        </div>
+    </div>
+    <div style="padding-top: 40px; margin-left:20px; margin-right:20px" class="ui three column very relaxed grid">
+        <div class="column">
+            <div class="ui header">
+                <img class="ui image" src="/content/school.png" alt="school">
+                <div class="content">
+                    @Html.Raw(KamilKielczewski.Resources.Home.EuropaLeague)
+                </div>
+            </div>
+            <div class="ui raised segment">
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.firstNews1st)</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.firstNews2nd)</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.firstNews3rd)</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.firstNews4th)</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui header">
+                <img class="ui image" src="/content/plugin.png" alt="puzzle">
+                <div class="content">
+                    <p>@Html.Raw(KamilKielczewski.Resources.Home.FamilyAllowance)</p>
+                </div>
+            </div>
+            <div class="ui raised segment">
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.secondNews1st)</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.secondNews2nd)</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.secondNews3rd)</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui header">
+                <img class="ui image" src="/content/patrick.png" alt="face">
+                <div class="content">
+                    Article by David
+                </div>
+            </div>
+            <div class="ui raised segment">
+                <p>Baltic Pipe</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.thirdNews1st)</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.thirdNews2nd)</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.thirdNews3rd)</p>
+
+                <p>@Html.Raw(KamilKielczewski.Resources.Home.thirdNews4th)</p>
+            </div>
+        </div>
+    </div>
+
+    <h4 style="margin-top:50px; margin-bottom:50px" class="ui divider"></h4>
+
+    <div style="overflow: hidden; max-height: 500px;">
+        <img src="../../content/article.jpg" alt="background" style="overflow: hidden; " />
+    </div>
+
+    <h4 style="margin-top:30px; margin-bottom:30px" class="ui horizontal divider">
+        Fake articles
+    </h4>
+
+    <div style="margin:30px" class="ui five column very relaxed grid">
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div style="padding:2px" class="column">
+            <div class="ui card">
+                <div class="content">
+                    <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                    <img style="padding-right: 5px;" class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                    <div class="header">@Html.Raw(KamilKielczewski.Resources.Home.CuteDog)</div>
+                    <div class="description">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="left floated like">
+                        <img class="right floated like icon" src="/Content/heart.jpg" alt="like">
+                        Like
+                    </span>
+                    <span class="right floated star">
+                        <img class="right floated like icon" src="/Content/star.jpg" alt="favorite">
+                        Favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

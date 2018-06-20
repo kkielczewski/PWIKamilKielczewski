@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Form";
+}
+
+<div style="margin-bottom:1000px" role="main" id="main-container">
+    <form style="margin:60px" id="registration-form" class="ui form raised very padded text container segment">
+        <h1>@Html.Raw(KamilKielczewski.Resources.Form.Registration)</h1>
+
+        <div class="field">
+            <label class="col-md-4 control-label">@Html.Raw(KamilKielczewski.Resources.Form.firstName)</label>
+            <input id="firstName" type="text" placeholder="@Html.Raw(KamilKielczewski.Resources.Form.firstName)" class="form-control input-md">
+        </div>
+
+        <div class="field">
+            <label class="col-md-4 control-label">@Html.Raw(KamilKielczewski.Resources.Form.lastName)</label>
+            <input id="lastName" type="text" placeholder="@Html.Raw(KamilKielczewski.Resources.Form.lastName)" class="form-control input-md">
+        </div>
+
+        <div class="field">
+            <label class="col-md-4 control-label">Email</label>
+            <input id="Email" type="text" placeholder="Email" class="form-control input-md">
+        </div>
+
+        <div class="field">
+            <label class="col-md-4 control-label">@Html.Raw(KamilKielczewski.Resources.Form.Password)</label>
+            <input id="Password" type="password" placeholder="@Html.Raw(KamilKielczewski.Resources.Form.Password)" class="form-control input-md">
+            <span>@Html.Raw(KamilKielczewski.Resources.Form.passwordText)</span>
+        </div>
+
+        <div class="field">
+            <label class="col-md-4 control-label">@Html.Raw(KamilKielczewski.Resources.Form.confirmPassword)</label>
+            <input id="confirmPassword" type="password" placeholder="@Html.Raw(KamilKielczewski.Resources.Form.confirmPassword)" class="form-control input-md">
+        </div>
+
+        <div class="field">
+            <input type="button" class="ui primary button" id="validateButton" value="@Html.Raw(KamilKielczewski.Resources.Form.Register)" onclick="ValidateForm()" />
+        </div>
+    </form>
+</div>
+
