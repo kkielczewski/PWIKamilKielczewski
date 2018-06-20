@@ -1,0 +1,16 @@
+D:\Kamil\KamilKielczewskiPWI\Resources\bin\Debug\netcoreapp2.0\Resources.deps.json
+D:\Kamil\KamilKielczewskiPWI\Resources\bin\Debug\netcoreapp2.0\Resources.dll
+D:\Kamil\KamilKielczewskiPWI\Resources\bin\Debug\netcoreapp2.0\Resources.pdb
+D:\Kamil\KamilKielczewskiPWI\Resources\bin\Debug\netcoreapp2.0\en\Resources.resources.dll
+D:\Kamil\KamilKielczewskiPWI\Resources\bin\Debug\netcoreapp2.0\pl\Resources.resources.dll
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.csprojAssemblyReference.cache
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.Resource.en.resources
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.Resource.pl.resources
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.csproj.GenerateResource.cache
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.csproj.CoreCompileInputs.cache
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.AssemblyInfoInputs.cache
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.AssemblyInfo.cs
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\en\Resources.resources.dll
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\pl\Resources.resources.dll
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.dll
+D:\Kamil\KamilKielczewskiPWI\Resources\obj\Debug\netcoreapp2.0\Resources.pdb
